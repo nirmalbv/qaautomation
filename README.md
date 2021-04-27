@@ -1,6 +1,6 @@
 # qaautomation
 
-**Steps to be followed for starting Selenium Grid using Zalenium and running the automation suite:**
+**Steps to be followed for starting Selenium Grid using Zalenium and running our automation suite:**
 
 1) Install docker from https://www.docker.com/products/docker-desktop
 2) Place the Zalenium Script in the root directory of the automation suite
@@ -47,7 +47,7 @@
       
       where refresh value can be altered as per our need in the above URL
       
-    **c) Test execution dashboard which contain all the recorded tests:**
+    **c) Test execution dashboard which will contain all our recorded tests:**
     
         http://localhost:4444/dashboard/
    
