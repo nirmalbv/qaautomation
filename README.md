@@ -10,23 +10,24 @@
 
    **a) To get Insight on the Parameters that is required for executing the script,**
 
-      ./ZaleniumSetup.sh -h 
+       ./ZaleniumSetup.sh -h 
       
       ![image](https://user-images.githubusercontent.com/83286077/116243141-3e704980-a784-11eb-8a77-076110e2d70c.png)
 
  
    **b) To execute the script,**
    
-     ./ZaleniumSetup.sh <desiredContainers> <maxDockerSeleniumContainers> <videoRecordingEnabled>
+       ./ZaleniumSetup.sh <desiredContainers> <maxDockerSeleniumContainers> <videoRecordingEnabled>
    
       Example:
-      ./ZaleniumSetup.sh 3 3 true
+      
+       ./ZaleniumSetup.sh 3 3 true
       
       Above command will start Selenium Grid with 3 containers with video recording enabled
    
    **c) To Stop the Zalenium server,**
    
-      ./ZaleniumSetup.sh -s
+       ./ZaleniumSetup.sh -s
     
  6) Once the above steps are done, we need to point our tests to http://localhost:4444/wd/hub in our automation framework. This URL should be set as the argument to     RemoteWebDriver along with DesiredCapabilities.
  
