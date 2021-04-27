@@ -43,15 +43,15 @@
  7) Execute the automation suite using the appropriate mvn command
  8) Below are the URLs which Zalenium provides us to view the execution status,
  
-  ** a) Grid Console:**
+  **a) Grid Console:**
       http://localhost:4444/grid/console
      
-  ** b) Grid Execution console:**
+  **b) Grid Execution console:**
       http://localhost:4444/grid/admin/live?refresh=10
       
       where refresh value can be altered as per our need in the above URL
       
-  ** c) Test execution dashboard which contain all the recorded tests:**
+  **c) Test execution dashboard which contain all the recorded tests:**
       http://localhost:4444/dashboard/
    
    
