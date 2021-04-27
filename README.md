@@ -41,16 +41,24 @@
     **a) Grid Console:**
     
         http://localhost:4444/grid/console
+	
+	ZaleniumGridConsole.png![image](https://user-images.githubusercontent.com/48249784/116290058-b18fb500-a7b0-11eb-8d37-324e35d2995d.png)
+
      
     **b) Grid Execution console:**
     
         http://localhost:4444/grid/admin/live?refresh=10
       
-      where refresh value can be altered as per our need in the above URL
+        where refresh value can be altered as per our need in the above URL
+      
+        ZaleniumGrid.png![image](https://user-images.githubusercontent.com/48249784/116290102-bd7b7700-a7b0-11eb-96e7-33b104e912fd.png)
+
       
     **c) Test execution dashboard which will contain all our recorded tests:**
     
         http://localhost:4444/dashboard/
-   
+	
+        ZaleniumDashboard.png![Uploading image.png…]()
+
    
 
