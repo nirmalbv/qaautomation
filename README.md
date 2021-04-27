@@ -32,27 +32,23 @@
  
       **Sample Code Snippet:**
     
-    	DesiredCapabilities dc = new DesiredCapabilities();
-  	dc.setBrowserName(BrowserType.CHROME);
-	try {
-		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), dc);
-	} 
-	catch (MalformedURLException e) {
-		e.printStackTrace()
-	}
+    	![image](https://user-images.githubusercontent.com/83286077/116245846-03bbe080-a787-11eb-83b5-42181585506a.png)
 			
  7) Execute the automation suite using the appropriate mvn command
  8) Below are the URLs which Zalenium provides us to view the execution status,
  
     **a) Grid Console:**
+    
         http://localhost:4444/grid/console
      
     **b) Grid Execution console:**
+    
         http://localhost:4444/grid/admin/live?refresh=10
       
       where refresh value can be altered as per our need in the above URL
       
     **c) Test execution dashboard which contain all the recorded tests:**
+    
         http://localhost:4444/dashboard/
    
    
