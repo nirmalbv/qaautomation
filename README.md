@@ -32,7 +32,7 @@
  
       **Sample Code Snippet:**
     
-    	![image](https://user-images.githubusercontent.com/83286077/116245846-03bbe080-a787-11eb-83b5-42181585506a.png)
+	![image](https://user-images.githubusercontent.com/83286077/116246310-7f1d9200-a787-11eb-93d7-75b9d6715805.png)
 			
  7) Execute the automation suite using the appropriate mvn command
  8) Below are the URLs which Zalenium provides us to view the execution status,
