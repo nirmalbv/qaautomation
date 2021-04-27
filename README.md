@@ -1,2 +1,2 @@
 # qaautomation
-Have all the necessary QA Automation scripts
+Scripts related to QA Automation
